@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@500&family=Macondo&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rip {
+    position: absolute;
+    top: 52%;
+    left: 48%;
+    
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo path:nth-child(1){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards;
+}
+#logo path:nth-child(2){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 1.0s;
+    
+}
+#logo path:nth-child(3){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 1.30s;
+    
+}
+#logo path:nth-child(4){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 2.0s;
+    
+}
+#logo path:nth-child(5){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 2.30s;
+    
+}
+#logo path:nth-child(6){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 3.00s;
+    
+}
+#logo path:nth-child(7){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 3.30s;
+    
+}
+#logo path:nth-child(8){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 4.00s;
+    
+}
+#logo path:nth-child(9){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 4.30s;
+    
+}
+#logo path:nth-child(10){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 5.00s;
+    
+}
+#logo path:nth-child(11){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 5.30s;
+    
+}
+#logo path:nth-child(12){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 6.00s;
+    
+}
+#logo path:nth-child(13){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 6.30s;
+    
+}
+#logo path:nth-child(14){
+    fill-opacity: 100%;
+    fill-opacity: 0%;
+    animation: line-anim 1s ease forwards 7.00s;
+    
+}
+
+@keyframes line-anim {
+    to{
+        fill-opacity: 100%;        
+    }    
+}
+
+.text h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: grey;
+    opacity: 0%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: text-anim 2s ease forwards;
+}
+
+.pic1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: pic-anim1 2s ease forwards;
+}
+.pic2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    animation: pic-anim2 2s ease forwards;
+}
+
+.pic3{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    animation: pic-anim3 2s ease forwards;
+}
+
+@keyframes pic-anim1 {
+    to{
+        transform: translateX(380%) translateY(91%);
+        position: absolute;
+    }
+}
+
+@keyframes pic-anim2 {
+    to{
+        transform: translateX(-273%) translateY(91%);
+        position: absolute;
+    }
+}
+
+@keyframes pic-anim3 {
+    to{
+        transform: translateX(220%) translateY(-102%);
+        position: absolute;
+    }
+}
+
+@keyframes text-anim {
+    to{
+        transform: translateX(280%) translateY(2110%);
+        opacity: 100%;
+        position: absolute;
+    }
+}
+
+/* MEDIA QUERY */
+
+@media all and (max-width:1000px){
+    
+}
